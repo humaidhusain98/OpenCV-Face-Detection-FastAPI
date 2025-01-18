@@ -22,7 +22,7 @@ These tasks include: <br />
 
 ---
 
-## 📦 Installation
+## 📦 Installation Instructions
 
 ### 1. Clone the Repository
 ```bash
@@ -31,7 +31,26 @@ cd OpenCV-Face-Detection-FastAPI
 ```
 
 ### 2. Create a Virtual Environment
+It's best practice to create a virtual environment for your Python projects:
 ```bash
 python3 -m venv env
 # Activate the virtual environment
 source env/bin/activate  # On Windows: env\Scripts\activate
+```
+
+### 3. Install Dependencies
+Install the required Python packages using pip and the requirements.txt
+```bash
+pip install -r requirements.txt
+```
+
+### 4.Set Up Environment Variables
+Create a .env file in the root directory and add the necessary environment variables (if applicable). For example:
+```env
+localUrl=http://127.0.0.1:8000
+prodUrl=
+isDev=
+AWS_SECRET_KEY_ID=
+AWS_SECRET_ACCESS_KEY=
+S3_BUCKET_URL=
+```
