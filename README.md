@@ -45,9 +45,9 @@ pip install -r requirements.txt
 ```
 
 ### 4.Set Up Environment Variables
-Create a .env file in the root directory and add the necessary environment variables (if applicable). For example:
+Create a .env file in the root directory and add the details given in the .env.example file and fill the details
 ```env
-localUrl=http://127.0.0.1:8000
+localUrl=
 prodUrl=
 isDev=
 AWS_SECRET_KEY_ID=
