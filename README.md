@@ -54,3 +54,33 @@ AWS_SECRET_KEY_ID=
 AWS_SECRET_ACCESS_KEY=
 S3_BUCKET_URL=
 ```
+
+## 🚀 Start Instructions
+### 1. Run the FastAPI Development Server
+Use the uvicorn command to start the development server:
+```bash
+uvicorn app.main:app --reload
+```
+
+### 2. Access the API
+Once the server is running, the API will be available at:
+```arduino
+http://127.0.0.1:8000
+```
+
+### 3. Explore the Documentation
+FastAPI automatically generates interactive API docs:
+-Swagger UI: http://127.0.0.1:8000/docs
+-ReDoc: http://127.0.0.1:8000/redoc
+
+### 4.Set Up Environment Variables
+Create a .env file in the root directory and add the necessary environment variables (if applicable). For example:
+```env
+localUrl=http://127.0.0.1:8000
+prodUrl=
+isDev=
+AWS_SECRET_KEY_ID=
+AWS_SECRET_ACCESS_KEY=
+S3_BUCKET_URL=
+```
+
