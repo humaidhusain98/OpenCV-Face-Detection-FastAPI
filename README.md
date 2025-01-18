@@ -28,6 +28,7 @@ These tasks include: <br />
 ```bash
 git clone git@github.com:humaidhusain98/OpenCV-Face-Detection-FastAPI.git
 cd OpenCV-Face-Detection-FastAPI
+```
 
 ### 2. Create a Virtual Environment
 ```bash
