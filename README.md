@@ -26,5 +26,11 @@ These tasks include: <br />
 
 ### 1. Clone the Repository
 ```bash
-git clone <repository_url>
-cd <repository_directory>
+git clone git@github.com:humaidhusain98/OpenCV-Face-Detection-FastAPI.git
+cd OpenCV-Face-Detection-FastAPI
+
+### 2. Create a Virtual Environment
+```bash
+python3 -m venv env
+# Activate the virtual environment
+source env/bin/activate  # On Windows: env\Scripts\activate
