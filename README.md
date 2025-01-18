@@ -11,7 +11,6 @@ These tasks include: <br />
 
 # 🚀 FastAPI Project
 
-A simple and scalable FastAPI project template. Follow the steps below to set up and run the application locally or deploy it to production.
 
 ---
 
